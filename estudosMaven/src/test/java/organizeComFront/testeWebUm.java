@@ -57,7 +57,7 @@ public class testeWebUm {
 
         //Validar o Resultado
         String resultado = driver.findElement(By.xpath("/html/body/div/table/tbody/tr[1]/td[1]")).getText();
-        Assert.assertEquals("Lojinha do Mestre", resultado);
+        Assert.assertEquals("Loja do Mestre", resultado);
     }
 
     @After
